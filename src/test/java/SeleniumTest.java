@@ -1,3 +1,4 @@
+import javax.swing.plaf.IconUIResource;
 import org.junit.Test;
 import org.junit.After;
 
@@ -17,6 +18,11 @@ public class SeleniumTest {
     @After
     public void tearDown() {
         driver.quit();
+    }
+
+    @Test
+    void 변경사항을_커밋할_수_있다() {
+        System.out.println("변경");
     }
 
     @Test
