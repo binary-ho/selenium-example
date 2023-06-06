@@ -22,7 +22,7 @@ public class SeleniumTest {
 
     @Test
     void 변경사항을_커밋할_수_있다() {
-        System.out.println("변경");
+        System.out.println("변 test 경");
     }
 
     @Test
